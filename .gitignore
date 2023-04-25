@@ -58,3 +58,7 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
+/Game/Output
+/Game/Engine/x64
+/Game/Client/x64
+/Game/x64
