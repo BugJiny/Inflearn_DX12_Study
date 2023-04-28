@@ -14,7 +14,7 @@ using namespace std;
 // DX관련
 #include "d3dx12.h"  // MS 공식 Directx12 지원 라이브러리
 #include <d3d12.h>
-#include <wrl.h>
+#include <wrl.h>    // Window Runtime Library(Com객체의 수명관리를 위해) -> Com객체를 위한 스마트포인터             
 #include <d3dcompiler.h>
 #include <dxgi.h>
 #include <DirectXMath.h>
@@ -59,6 +59,17 @@ struct WindowInfo
 	int32	height;  // 높이
 	bool	windowed; // 창모드 or 전체화면
 };
+
+struct Vertex
+{
+	Vec3 pos;
+	Vec4 color;
+};
+
+// 헬퍼 매크로
+#define DEVICE			GEngine->GetDevice()->GetDevice()
+#define CMD_LIST		GEngine->GetCmdQueue()->GetCmdList()
+#define ROOT_SIGNATURE	GEngine->GetRootSignature()->GetSignature()
 
 extern unique_ptr<class Engine> GEngine;
 
