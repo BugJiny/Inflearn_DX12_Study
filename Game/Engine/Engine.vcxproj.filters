@@ -76,8 +76,8 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\Resources\Shader\default.hlsli">
+    <FxCompile Include="..\Resources\Shader\default.hlsl">
       <Filter>Shader</Filter>
-    </None>
+    </FxCompile>
   </ItemGroup>
 </Project>

@@ -18,7 +18,7 @@ void Game::Init(const WindowInfo& info)
 	vec[2].color = Vec4(0.f, 0.f, 1.f, 1.f);
 	mesh->Init(vec);
 
-	shader->Init(L"..\\Resources\\Shader\\default.hlsli");
+	shader->Init(L"..\\Resources\\Shader\\default.hlsl");
 
 	GEngine->GetCmdQueue()->WaitSync();
 }
