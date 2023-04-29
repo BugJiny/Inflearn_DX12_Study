@@ -36,13 +36,16 @@
     <ClInclude Include="SwapChain.h">
       <Filter>Engine</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\bugna\OneDrive\Desktop\삼각형 띄우기_소스코드\Engine\Shader.h">
+    <ClInclude Include="RootSignature.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
       <Filter>Resource</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\bugna\OneDrive\Desktop\삼각형 띄우기_소스코드\Engine\Mesh.h">
+    <ClInclude Include="Shader.h">
       <Filter>Resource</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\bugna\OneDrive\Desktop\삼각형 띄우기_소스코드\Engine\RootSignature.h">
+    <ClInclude Include="ConstantBuffer.h">
       <Filter>Engine</Filter>
     </ClInclude>
   </ItemGroup>
@@ -65,13 +68,16 @@
     <ClCompile Include="SwapChain.cpp">
       <Filter>Engine</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\bugna\OneDrive\Desktop\삼각형 띄우기_소스코드\Engine\Mesh.cpp">
+    <ClCompile Include="RootSignature.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
       <Filter>Resource</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\bugna\OneDrive\Desktop\삼각형 띄우기_소스코드\Engine\Shader.cpp">
+    <ClCompile Include="Shader.cpp">
       <Filter>Resource</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\bugna\OneDrive\Desktop\삼각형 띄우기_소스코드\Engine\RootSignature.cpp">
+    <ClCompile Include="ConstantBuffer.cpp">
       <Filter>Engine</Filter>
     </ClCompile>
   </ItemGroup>

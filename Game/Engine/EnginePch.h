@@ -66,6 +66,11 @@ struct Vertex
 	Vec4 color;
 };
 
+struct Transform
+{
+	Vec4 offset;
+};
+
 // ÇïÆÛ ¸ÅÅ©·Î
 #define DEVICE			GEngine->GetDevice()->GetDevice()
 #define CMD_LIST		GEngine->GetCmdQueue()->GetCmdList()
